@@ -7,7 +7,7 @@ export const environment = {
     "PAY:F-ANA:F-ACT:F-TRI:F-GRO:F-DEP:F-OPH:F-MTL:F-CAR:F-V1L:F-PSA:F-MTT:F-SUP:F-LBS:F-APP:F-DEV:F-NOT:F-IPS:F-ETK:F-RAS:F-PPB:F-PET:F-MTS:F-TIL:F-DGF:F-NAT:F-HPB:F-TOW:F",
   widgetUrl: "http://localhost:4200/launch.js",
   botcredendialsURL: "CHANGEIT",
-  SERVER_BASE_URL: "http://localhost:3070/",
+  SERVER_BASE_URL: "https://tiledesk-server.herokuapp.com/",
   CHAT_BASE_URL: "http://localhost:8080/",
   testsiteBaseUrl: "http://localhost:4200/assets/test_widget_page/index.html",
   wsUrl: "ws://localhost:3000/",
