@@ -3,7 +3,7 @@
   "version": "2.4.9",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --aot",
+    "start": "ng serve",
     "build": "ng build -- --output-path=dist --base-href ./",
     "build2": "ng build --prod",
     "test": "ng test",

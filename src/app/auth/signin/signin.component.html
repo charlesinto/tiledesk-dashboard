@@ -1,20 +1,41 @@
 <!-- background-image: linear-gradient(to bottom, #fc766a, #f9796b, #f67b6c, #f37e6e, #f0806f); -->
-<div class="main-content"
-  style="padding-top:0px;min-height: calc(100% - 0px); margin-top: 0px;padding-left: 0px;padding-right: 0px;padding-bottom: 0px;">
-
+<div
+  class="main-content"
+  style="
+    padding-top: 0px;
+    min-height: calc(100% - 0px);
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  "
+>
   <div class="container-fluid">
     <!-- 'brand-background-image': company_name === 'Tiledesk',
     'no_brand-background-image': company_name !== 'Tiledesk' -->
     <!-- [ngStyle]="{'background-size': bckgndImageSize}" -->
-    <div class="split left" style="display: flex; justify-content: center;
-    align-items: center;" [ngClass]="{'hidden_left_panel' : hide_left_panel === true}">
-
+    <div
+      class="split left"
+      style="display: flex; justify-content: center; align-items: center"
+      [ngClass]="{ hidden_left_panel: hide_left_panel === true }"
+    >
       <div>
-        <svg viewBox="0 0 960 540" width="100%" height="100%" preserveAspectRatio="xMidYMax slice"
-          xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 pointer-events-none ng-tns-c137-1"
-          style="inset: 0; position: absolute;">
-          <g fill="none" stroke="currentColor" stroke-width="100" class="text-gray-700 opacity-25 ng-tns-c137-1" style="color: gray;
-          opacity: 0.20;">
+        <svg
+          viewBox="0 0 960 540"
+          width="100%"
+          height="100%"
+          preserveAspectRatio="xMidYMax slice"
+          xmlns="http://www.w3.org/2000/svg"
+          class="absolute inset-0 pointer-events-none ng-tns-c137-1"
+          style="inset: 0; position: absolute"
+        >
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-width="100"
+            class="text-gray-700 opacity-25 ng-tns-c137-1"
+            style="color: gray; opacity: 0.2"
+          >
             <circle r="234" cx="196" cy="23" class="ng-tns-c137-1"></circle>
             <circle r="234" cx="790" cy="491" class="ng-tns-c137-1"></circle>
           </g>
@@ -24,15 +45,23 @@
       <!--  --------------------------------------------------------------- -->
       <!--  Right panel -->
       <!--  --------------------------------------------------------------- -->
-      <div class="centered-horizontally" style="margin:auto; margin-top: 60px;">
-
-        <div class="left-logo" style="text-align: center;text-align: center;
-        z-index: 1050;
-        position: relative;">
+      <div class="centered-horizontally" style="margin: auto; margin-top: 60px">
+        <div
+          class="left-logo"
+          style="
+            text-align: center;
+            text-align: center;
+            z-index: 1050;
+            position: relative;
+          "
+        >
           <a [href]="company_site_url" target="_blank">
-
             <!-- <img [src]="companyLogoAllWithe_Url" class="img-fluid" style="width: 180px;"/> -->
-            <img src="assets/img/logos/tiledesk_planet.svg" class="img-fluid" style="width: 200px;" />
+            <img
+              src="assets/img/logos/tiledesk_planet.svg"
+              class="img-fluid"
+              style="width: 200px"
+            />
           </a>
         </div>
 
@@ -45,17 +74,24 @@
           <span style="display: block;"> Omni-channel live chat + AI-powered chatbots and conversational apps. </span> 
         </div> -->
 
-         <div *ngIf="SUP === true" style="width: 260px; margin: auto; text-align: center;">
+        <div
+          *ngIf="SUP === true"
+          style="width: 260px; margin: auto; text-align: center"
+        >
           <h2 class="signin-no-account">
-            {{ "Dont" | translate }} <br>
+            {{ "Dont" | translate }} <br />
             {{ "HaveAnAccountYet" | translate }}
           </h2>
 
-          <button id="go-to-signup-btn" (click)="goToSignupPage()" type="submit" class="btn btn-white">
-            {{ 'CreateAFreeAccount' | translate}}
+          <button
+            id="go-to-signup-btn"
+            (click)="goToSignupPage()"
+            type="submit"
+            class="btn btn-white"
+          >
+            {{ "CreateAFreeAccount" | translate }}
           </button>
-        </div> 
-
+        </div>
       </div>
     </div>
 
@@ -71,33 +107,49 @@
         </div>
       </div> -->
 
-       
-    <!-- --------------------------------------------------------------- -->
-    <!-- Right logo -->
-    <!-- --------------------------------------------------------------- -->
+      <!-- --------------------------------------------------------------- -->
+      <!-- Right logo -->
+      <!-- --------------------------------------------------------------- -->
       <!-- position: relative;  top: 16px; -->
-      <div class="right-logo" style="text-align: center;">
+      <div class="right-logo" style="text-align: center">
         <a [href]="company_site_url" target="_blank">
           <!-- [src]="companyLogoBlack_Url"  -->
           <!-- assets/img/logos/tiledesk_2.0_logo_black_v2.svg -->
-          <img [src]="companyLogoBlack_Url" class="img-fluid" style="max-width: 150px; height: auto;" />
+          <img
+            [src]="companyLogoBlack_Url"
+            class="img-fluid"
+            style="max-width: 150px; height: auto"
+          />
         </a>
       </div>
       <div class="centered">
         <div class="logo-at-media-plus-992">
-          <svg _ngcontent-pgl-c83="" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" height="48px"
-            viewBox="0 0 60 60" width="48px" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
-            <path _ngcontent-pgl-c83=""
+          <svg
+            _ngcontent-pgl-c83=""
+            xml:space="preserve"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            height="48px"
+            viewBox="0 0 60 60"
+            width="48px"
+            x="0px"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0px"
+          >
+            <path
+              _ngcontent-pgl-c83=""
               d="M51.8,28.2h-19c-1.7,0-3-1.3-3-3V6.4c0-1.7-1.3-3-3-3H8c-1.7,0-3,1.3-3,3v22v22c0,1.7,1.3,3,3,3H6.7h3.4  c0.8,0,1.3,0.2,1.9,0.8l2.3,2.3l2.1,2.1c0.8,0.8,1.7,0.8,2.4,0l2.1-2.1l2.3-2.3c0.6-0.6,1.1-0.8,1.9-0.8H52c1.7,0,3-1.3,3-3V31.2  C54.8,29.5,53.5,28.2,51.8,28.2"
-              fill="#F18876"></path>
-            <path _ngcontent-pgl-c83=""
+              fill="#F18876"
+            ></path>
+            <path
+              _ngcontent-pgl-c83=""
               d="M52,24.2H36.8c-1.5,0-2.8-1.3-2.8-2.8V6.2c0-1.5,1.3-2.8,2.8-2.8H52c1.5,0,2.8,1.3,2.8,2.8v15.2  C54.8,22.9,53.5,24.2,52,24.2"
-              fill="#E5BBAD"></path>
+              fill="#E5BBAD"
+            ></path>
           </svg>
         </div>
         <div class="signin-title">
           <h2>
-            {{ "SignIn" | translate}}
+            {{ "SignIn" | translate }}
             <!-- {{ "SignInTo" | translate}} {{ company_name }} -->
           </h2>
 
@@ -108,25 +160,36 @@
             </span>
           </div> -->
 
-
           <!-- <img src="assets/img/logos/tiledesk_2.0_logo_black_v2.svg" class="img-fluid" style="max-width: 280px;
           margin-top: 30px;
           margin-bottom: 30px;" /> -->
         </div>
         <div class="login-container">
           <form [formGroup]="userForm" (ngSubmit)="signin()">
-
             <label for="email">Email</label>
-            <input type="email" class="input" formControlName="email" id="email" required autocapitalize="off"
-              spellcheck="false">
+            <input
+              type="email"
+              class="input"
+              formControlName="email"
+              id="email"
+              required
+              autocapitalize="off"
+              spellcheck="false"
+            />
 
             <div *ngIf="formErrors.email" class="is-danger" translate>
-
               {{ formErrors.email }}
             </div>
 
             <label for="password">Password</label>
-            <input type="password" id="password" class="input" formControlName="password" autocomplete="on" required>
+            <input
+              type="password"
+              id="password"
+              class="input"
+              formControlName="password"
+              autocomplete="on"
+              required
+            />
 
             <div *ngIf="formErrors.password" class="is-danger" translate>
               {{ formErrors.password }}
@@ -135,13 +198,18 @@
             <button type="submit" class="btn signin-button">
               <span *ngIf="!showSpinnerInLoginBtn">
                 <!-- Login  -->
-                {{ 'Login' | translate}}
+                {{ "Login" | translate }}
               </span>
-              <span *ngIf="showSpinnerInLoginBtn"> <i class="fa fa-spinner fa-spin"></i></span>
+              <span *ngIf="showSpinnerInLoginBtn">
+                <i class="fa fa-spinner fa-spin"></i
+              ></span>
             </button>
 
             <!-- <span *ngIf="userForm.valid" class="help is-success">Form Looks Valid</span> -->
-            <div class="left-panel-signup-link" style="margin-top:16px; text-align: center">
+            <div
+              class="left-panel-signup-link"
+              style="margin-top: 16px; text-align: center"
+            >
               <a routerLink="/signup" style="color: #666666; font-size: 1.1em">
                 {{ "DontHaveAnAccountYet" | translate }}
                 <span style="color: #03a5e8">
@@ -150,9 +218,19 @@
               </a>
             </div>
 
-            <p style="color: #666666; font-size: 1.1em; text-align: center; margin-top: 16px;">
+            <p
+              style="
+                color: #666666;
+                font-size: 1.1em;
+                text-align: center;
+                margin-top: 16px;
+              "
+            >
               {{ "ForgotYourPassword" | translate }}?
-              <span style="color: #03a5e8; cursor:pointer" (click)="goToResetPsw()">
+              <span
+                style="color: #03a5e8; cursor: pointer"
+                (click)="goToResetPsw()"
+              >
                 {{ "ClickHere" | translate }}
               </span>
             </p>
@@ -168,16 +246,10 @@
             </p> -->
           </form>
         </div>
-
       </div>
     </div>
-
   </div>
 </div>
-
-
-
-
 
 <!-- -------------------------------------------------------------------------------------------- -->
 <!-- Old login template -->
